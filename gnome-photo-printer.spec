@@ -11,6 +11,7 @@ URL:		http://www.fogman.de/gpp/
 BuildRequires:	libglade2-devel >= 1:2.4.0
 BuildRequires:	libgnomeprintui-devel >= 2.6.0
 BuildRequires:	libgnomeui-devel >= 2.6.0
+BuildRequires:	pkgconfig >= 0.6.0
 BuildRoot:	%{tmpdir}/gpp-%{version}-root-%(id -u -n)
 
 %description
