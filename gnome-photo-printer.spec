@@ -11,11 +11,21 @@ URL:		http://www.fogman.de/gpp/
 BuildRequires:	libglade2-devel >= 1:2.4.0
 BuildRequires:	libgnomeprintui-devel >= 2.6.0
 BuildRequires:	libgnomeui-devel >= 2.6.0
-BuildRequires:	pkgconfig >= 0.6.0
+BuildRequires:	pkgconfig >= 1:0.6.0
 BuildRoot:	%{tmpdir}/gpp-%{version}-root-%(id -u -n)
 
 %description
-Gnome Photo Printer is intended for printing photos in an easy way.  Just drag your Photos from Nautilus to the Gnome Photo Printer window and drop it.  Make some selections like Photo or Paper size, hit Preview or  Print , and see your pictures printed.
+Gnome Photo Printer is intended for printing photos in an easy way.
+Just drag your Photos from Nautilus to the Gnome Photo Printer window
+and drop it. Make some selections like Photo or Paper size, hit
+Preview or Print, and see your pictures printed.
+
+%description -l pl
+Gnome Photo Printer to program przeznaczony do ³atwego drukowania
+zdjêæ. Wystarczy przeci±gn±æ zdjêcia z Nautilusa do okienka Gnome
+Photo Printer i upu¶ciæ je. Po wybraniu paru rzeczy, takich jak
+rozmiar zdjêcia lub papieru wystarczy wybraæ podgl±d lub wydruk i
+ogl±daæ wydrukowane zdjêcia.
 
 %prep
 %setup -q -n gpp-%{version}
