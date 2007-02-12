@@ -1,5 +1,5 @@
 Summary:	An image viewer and browser for GNOME
-Summary(pl):	Przegl±darka obrazków dla GNOME
+Summary(pl.UTF-8):   PrzeglÄ…darka obrazkÃ³w dla GNOME
 Name:		gnome-photo-printer
 Version:	0.6.5
 Release:	1
@@ -20,12 +20,12 @@ Just drag your Photos from Nautilus to the Gnome Photo Printer window
 and drop it. Make some selections like Photo or Paper size, hit
 Preview or Print, and see your pictures printed.
 
-%description -l pl
-Gnome Photo Printer to program przeznaczony do ³atwego drukowania
-zdjêæ. Wystarczy przeci±gn±æ zdjêcia z Nautilusa do okienka Gnome
-Photo Printer i upu¶ciæ je. Po wybraniu paru rzeczy, takich jak
-rozmiar zdjêcia lub papieru wystarczy wybraæ podgl±d lub wydruk i
-ogl±daæ wydrukowane zdjêcia.
+%description -l pl.UTF-8
+Gnome Photo Printer to program przeznaczony do Å‚atwego drukowania
+zdjÄ™Ä‡. Wystarczy przeciÄ…gnÄ…Ä‡ zdjÄ™cia z Nautilusa do okienka Gnome
+Photo Printer i upuÅ›ciÄ‡ je. Po wybraniu paru rzeczy, takich jak
+rozmiar zdjÄ™cia lub papieru wystarczy wybraÄ‡ podglÄ…d lub wydruk i
+oglÄ…daÄ‡ wydrukowane zdjÄ™cia.
 
 %prep
 %setup -q -n gpp-%{version}
