@@ -1,5 +1,5 @@
 Summary:	An image viewer and browser for GNOME
-Summary(pl.UTF-8):   Przeglądarka obrazków dla GNOME
+Summary(pl.UTF-8):	Przeglądarka obrazków dla GNOME
 Name:		gnome-photo-printer
 Version:	0.6.5
 Release:	1
